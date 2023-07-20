@@ -89,6 +89,15 @@ footer {
   margin-bottom: 5px;
 }
 
+a {
+  text-decoration: none;
+}
+a:link {
+  color: blanchedalmond;
+}
+a:hover {
+  color: aqua;
+}
 /* responsiveness */
 
 @media only screen and (max-width: 375px) {
