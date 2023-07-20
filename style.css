@@ -28,6 +28,9 @@ p {
 .menu {
   width: 80%;
   background-color: burlywood;
+  box-shadow: 11px 40px 64px 37px rgba(77, 77, 37, 0.75);
+  -webkit-box-shadow: 11px 40px 64px 37px rgba(77, 77, 37, 0.75);
+  -moz-box-shadow: 11px 40px 64px 37px rgba(77, 77, 37, 0.75);
   margin-left: auto;
   margin-right: auto;
   padding: 30px;
@@ -40,7 +43,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50px;
-  padding-left: 222px;
+  padding: 0px 222px;
 }
 hr {
   height: 2px;
@@ -84,4 +87,39 @@ footer {
 
 .address {
   margin-bottom: 5px;
+}
+
+/* responsiveness */
+
+@media only screen and (max-width: 375px) {
+  .menu {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 375px) {
+  img {
+    margin: auto;
+    width: 60px !important;
+    padding: 0 99px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .menu {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .flavor,
+  .loose-tea {
+    text-align: left;
+    width: 72%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .flavor {
+    width: 74%;
+    text-align: left;
+  }
 }
