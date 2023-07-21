@@ -40,10 +40,14 @@ p {
   border-bottom-right-radius: 15%;
 }
 img {
-  margin-left: auto;
-  margin-right: auto;
+  /* width: 50px; */
+  /* padding-left: 224px; */
+  /* display: inline-block; */
+  margin: 0 auto;
+  background-color: aqua;
   width: 50px;
-  padding: 0px 222px;
+  height: 50px;
+  display: block;
 }
 hr {
   height: 2px;
@@ -70,7 +74,8 @@ h2 {
 .flavor,
 .loose-tea {
   text-align: left;
-  width: 75%;
+  width: 70%;
+  display: inline-block;
 }
 
 .price {
@@ -99,20 +104,14 @@ a:hover {
   color: aqua;
 }
 /* responsiveness */
-
+/* 
 @media only screen and (max-width: 375px) {
   .menu {
     width: 80%;
     margin: auto;
   }
 }
-@media only screen and (max-width: 375px) {
-  img {
-    margin: auto;
-    width: 60px !important;
-    padding: 0 99px;
-  }
-}
+
 @media only screen and (max-width: 600px) {
   .menu {
     width: 80%;
@@ -132,3 +131,9 @@ a:hover {
     text-align: left;
   }
 }
+@media only screen and (min-width: 375px) {
+  .img {
+    display: inline-block;
+    padding-left: 99px;
+  }
+} */
